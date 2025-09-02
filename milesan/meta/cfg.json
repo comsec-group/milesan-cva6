@@ -1,0 +1,19 @@
+{
+    "misaligned_data_supported": false,
+    "privlvs": "msu",
+    "mmu": "sv39",
+    "marchflags": "-march=rv64imc -mabi=lp64",
+    "bootaddr": "0x80000000",
+    "stopsigaddr": "0x0",
+    "trapsigaddr": "0x8",
+    "regdumpaddr": "0x10",
+    "fpregdumpaddr": "0x18",
+    "regstreamaddr": "0x20",
+    "bootrom_elf": "",
+    "lead_cycles": 256,
+    "toplevel": "ariane_tiny_soc",
+    "trace_top": "ariane_tiny_soc.i_ariane_mem_top",
+    "verilatorprefix": "cva6",
+    "memorywordsize": 64,
+    "clsize": 64
+}
